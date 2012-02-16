@@ -155,7 +155,6 @@ module EventCalendar
       last_day_of_cal = end_of_week(last, options[:first_day_of_week])
       row_num = 0
       top = 0
-      Time.zone = "Brasilia"
 
       # go through a week at a time, until we reach the end of the month
       while(last_day_of_week <= last_day_of_cal)
